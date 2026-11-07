@@ -1,0 +1,4 @@
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+model_ast_final_seed43: models/model_ast.py, 86.23M parameters, device cuda, folds [5]
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames

@@ -1,4 +1,28 @@
 [ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
-model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, folds [5]
+model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, folds [1, 2, 3, 4, 5]
 [ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
 [ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 1 epoch  10: train loss 1.341 acc 0.480
+  fold 1 epoch  20: train loss 1.175 acc 0.452
+  fold 1 epoch  30: train loss 1.084 acc 0.561
+  fold 1 epoch  40: train loss 1.023 acc 0.539
+  fold 1: test accuracy 0.8925 (trained on folds [2, 3, 4, 5], last epoch 40)
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 2 epoch  10: train loss 1.361 acc 0.548
+  fold 2 epoch  20: train loss 1.080 acc 0.555
+  fold 2 epoch  30: train loss 0.988 acc 0.464
+  fold 2 epoch  40: train loss 1.106 acc 0.507
+  fold 2: test accuracy 0.9075 (trained on folds [1, 3, 4, 5], last epoch 40)
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 3 epoch  10: train loss 1.306 acc 0.610
+  fold 3 epoch  20: train loss 1.057 acc 0.441
+  fold 3 epoch  30: train loss 0.996 acc 0.532
+  fold 3 epoch  40: train loss 1.082 acc 0.491
+  fold 3: test accuracy 0.8625 (trained on folds [1, 2, 4, 5], last epoch 40)
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 4 epoch  10: train loss 1.394 acc 0.591
+  fold 4 epoch  20: train loss 1.301 acc 0.470
+  fold 4 epoch  30: train loss 1.076 acc 0.584

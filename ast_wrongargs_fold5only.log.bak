@@ -1,0 +1,29 @@
+W1107 15:16:58.333000 12980 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 108/203 [00:00<00:00, 1029.72it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 1089.18it/s]
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, folds [5]
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  50%|█████     | 102/203 [00:00<00:00, 1013.39it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 1039.69it/s]
+D:\COMP9444_cloud_bundle\.venv\Lib\site-packages\torch\autograd\graph.py:869: UserWarning: Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\transformers\cuda\attention_backward.cu:902.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 5 epoch  10: train loss 1.452 acc 0.527
+  fold 5 epoch  20: train loss 1.309 acc 0.537
+  fold 5 epoch  30: train loss 1.122 acc 0.531
+  fold 5 epoch  40: train loss 1.023 acc 0.522
+  fold 5: test accuracy 0.8800 (trained on folds [1, 2, 3, 4], last epoch 40)
+training took 18.9 min
+== model_ast_final_seed42 (1 folds)
+  Accuracy         0.8800 ± 0.0000
+  Macro precision  0.8942 ± 0.0000
+  Macro recall     0.8800 ± 0.0000
+  Macro F1         0.8781 ± 0.0000
+  Cohen's κ        0.8776 ± 0.0000
+  Top-3 accuracy   0.9750 ± 0.0000
+  Top-5 accuracy   0.9825 ± 0.0000
+  Log loss         0.5378 ± 0.0000
+  most confused: helicopter→crickets (2); sneezing→coughing (2); water_drops→can_opening (2); drinking_sipping→pig (2); clapping→keyboard_typing (2)
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 79/203 [00:00<00:00, 775.04it/s]Loading weights:  84%|████████▎ | 170/203 [00:00<00:00, 846.80it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 901.30it/s]
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+model_ast_final_seed43: models/model_ast.py, 86.23M parameters, device cuda, folds [5]
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 75/203 [00:00<00:00, 718.75it/s]Loading weights:  72%|███████▏  | 147/203 [00:00<00:00, 709.27it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 889.69it/s]
