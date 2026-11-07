@@ -1,0 +1,158 @@
+{
+  "run": "model_ast_final_seed42",
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.892,
+      "std": 0.020796634343085416
+    },
+    "macro_precision": {
+      "mean": 0.9056613830613831,
+      "std": 0.02103082312423604
+    },
+    "macro_recall": {
+      "mean": 0.892,
+      "std": 0.020796634343085416
+    },
+    "macro_f1": {
+      "mean": 0.889641520158548,
+      "std": 0.02061753984547359
+    },
+    "cohen_kappa": {
+      "mean": 0.889795918367347,
+      "std": 0.021221055452127966
+    },
+    "top3_accuracy": {
+      "mean": 0.9795,
+      "std": 0.004808846015417851
+    },
+    "top5_accuracy": {
+      "mean": 0.9875,
+      "std": 0.004677071733467416
+    },
+    "log_loss": {
+      "mean": 0.49652743339538574,
+      "std": 0.052787807834907566
+    }
+  },
+  "pooled": {
+    "accuracy": 0.892,
+    "macro_precision": 0.8943599844931139,
+    "macro_recall": 0.892,
+    "macro_f1": 0.8905367047281549,
+    "cohen_kappa": 0.889795918367347,
+    "top3_accuracy": 0.9795,
+    "top5_accuracy": 0.9875,
+    "log_loss": 0.49652743339538574
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.8925,
+      "macro_precision": 0.9052636807636807,
+      "macro_recall": 0.8925,
+      "macro_f1": 0.8898844906383604,
+      "cohen_kappa": 0.8903061224489796,
+      "top3_accuracy": 0.9875,
+      "top5_accuracy": 0.995,
+      "log_loss": 0.4612962305545807
+    },
+    "2": {
+      "accuracy": 0.9075,
+      "macro_precision": 0.9209660894660894,
+      "macro_recall": 0.9075,
+      "macro_f1": 0.9071188056869169,
+      "cohen_kappa": 0.9056122448979592,
+      "top3_accuracy": 0.9775,
+      "top5_accuracy": 0.985,
+      "log_loss": 0.48015618324279785
+    },
+    "3": {
+      "accuracy": 0.8625,
+      "macro_precision": 0.8757200577200577,
+      "macro_recall": 0.8625,
+      "macro_f1": 0.8598763194150191,
+      "cohen_kappa": 0.8596938775510204,
+      "top3_accuracy": 0.98,
+      "top5_accuracy": 0.9875,
+      "log_loss": 0.5588284134864807
+    },
+    "4": {
+      "accuracy": 0.915,
+      "macro_precision": 0.9293848928848929,
+      "macro_recall": 0.915,
+      "macro_f1": 0.9104340590609941,
+      "cohen_kappa": 0.9132653061224489,
+      "top3_accuracy": 0.9775,
+      "top5_accuracy": 0.9875,
+      "log_loss": 0.43780067563056946
+    },
+    "5": {
+      "accuracy": 0.8825,
+      "macro_precision": 0.8969721944721943,
+      "macro_recall": 0.8825,
+      "macro_f1": 0.8808939259914491,
+      "cohen_kappa": 0.8801020408163265,
+      "top3_accuracy": 0.975,
+      "top5_accuracy": 0.9825,
+      "log_loss": 0.5445556640625
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "helicopter",
+      "predicted": "airplane",
+      "count": 7
+    },
+    {
+      "true": "helicopter",
+      "predicted": "crickets",
+      "count": 6
+    },
+    {
+      "true": "cat",
+      "predicted": "crying_baby",
+      "count": 6
+    },
+    {
+      "true": "water_drops",
+      "predicted": "clock_tick",
+      "count": 5
+    },
+    {
+      "true": "coughing",
+      "predicted": "sneezing",
+      "count": 4
+    },
+    {
+      "true": "wind",
+      "predicted": "sea_waves",
+      "count": 4
+    },
+    {
+      "true": "frog",
+      "predicted": "crickets",
+      "count": 4
+    },
+    {
+      "true": "mouse_click",
+      "predicted": "keyboard_typing",
+      "count": 4
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "engine",
+      "count": 3
+    },
+    {
+      "true": "laughing",
+      "predicted": "crying_baby",
+      "count": 3
+    }
+  ]
+}

@@ -4,6 +4,10 @@
   "out": "model_results/model_ast/smoke_final_seed43",
   "features": "logmel_sr22050_m128_fft1024_hop512_delta9",
   "folds": [
+    1,
+    2,
+    3,
+    4,
     5
   ],
   "epochs": 40,

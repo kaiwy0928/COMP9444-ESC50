@@ -1,0 +1,51 @@
+class,major_category,precision,recall,f1,support
+dog,Animals,0.8140,0.8750,0.8434,40
+rooster,Animals,0.9091,1.0000,0.9524,40
+pig,Animals,0.8947,0.8500,0.8718,40
+cow,Animals,1.0000,0.9750,0.9873,40
+frog,Animals,0.9000,0.9000,0.9000,40
+cat,Animals,0.8857,0.7750,0.8267,40
+hen,Animals,0.9487,0.9250,0.9367,40
+insects,Animals,0.9744,0.9500,0.9620,40
+sheep,Animals,0.9744,0.9500,0.9620,40
+crow,Animals,0.9286,0.9750,0.9512,40
+rain,Natural soundscapes,0.8974,0.8750,0.8861,40
+sea_waves,Natural soundscapes,0.8667,0.9750,0.9176,40
+crackling_fire,Natural soundscapes,0.9211,0.8750,0.8974,40
+crickets,Natural soundscapes,0.8837,0.9500,0.9157,40
+chirping_birds,Natural soundscapes,0.9302,1.0000,0.9639,40
+water_drops,Natural soundscapes,0.9118,0.7750,0.8378,40
+wind,Natural soundscapes,0.8378,0.7750,0.8052,40
+pouring_water,Natural soundscapes,0.9524,1.0000,0.9756,40
+toilet_flush,Natural soundscapes,1.0000,1.0000,1.0000,40
+thunderstorm,Natural soundscapes,0.9512,0.9750,0.9630,40
+crying_baby,Human non-speech,0.8085,0.9500,0.8736,40
+sneezing,Human non-speech,0.9231,0.9000,0.9114,40
+clapping,Human non-speech,0.9487,0.9250,0.9367,40
+breathing,Human non-speech,0.8718,0.8500,0.8608,40
+coughing,Human non-speech,0.9000,0.9000,0.9000,40
+footsteps,Human non-speech,0.9412,0.8000,0.8649,40
+laughing,Human non-speech,0.8810,0.9250,0.9024,40
+brushing_teeth,Human non-speech,0.9737,0.9250,0.9487,40
+snoring,Human non-speech,0.8864,0.9750,0.9286,40
+drinking_sipping,Human non-speech,0.9444,0.8500,0.8947,40
+door_wood_knock,Interior/domestic,1.0000,0.9500,0.9744,40
+mouse_click,Interior/domestic,0.8919,0.8250,0.8571,40
+keyboard_typing,Interior/domestic,0.8261,0.9500,0.8837,40
+door_wood_creaks,Interior/domestic,1.0000,0.8750,0.9333,40
+can_opening,Interior/domestic,0.8974,0.8750,0.8861,40
+washing_machine,Interior/domestic,0.7941,0.6750,0.7297,40
+vacuum_cleaner,Interior/domestic,0.9286,0.9750,0.9512,40
+clock_alarm,Interior/domestic,1.0000,0.9750,0.9873,40
+clock_tick,Interior/domestic,0.8125,0.9750,0.8864,40
+glass_breaking,Interior/domestic,0.9750,0.9750,0.9750,40
+helicopter,Exterior/urban,0.7931,0.5750,0.6667,40
+chainsaw,Exterior/urban,0.9000,0.9000,0.9000,40
+siren,Exterior/urban,0.9091,1.0000,0.9524,40
+car_horn,Exterior/urban,0.9500,0.9500,0.9500,40
+engine,Exterior/urban,0.8293,0.8500,0.8395,40
+train,Exterior/urban,0.8444,0.9500,0.8941,40
+church_bells,Exterior/urban,0.9756,1.0000,0.9877,40
+airplane,Exterior/urban,0.8571,0.9000,0.8780,40
+fireworks,Exterior/urban,0.9744,0.9500,0.9620,40
+hand_saw,Exterior/urban,0.8605,0.9250,0.8916,40

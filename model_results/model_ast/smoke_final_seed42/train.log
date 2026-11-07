@@ -26,3 +26,23 @@ model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, fol
   fold 4 epoch  10: train loss 1.394 acc 0.591
   fold 4 epoch  20: train loss 1.301 acc 0.470
   fold 4 epoch  30: train loss 1.076 acc 0.584
+  fold 4 epoch  40: train loss 0.979 acc 0.544
+  fold 4: test accuracy 0.9150 (trained on folds [1, 2, 3, 5], last epoch 40)
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 5 epoch  10: train loss 1.452 acc 0.526
+  fold 5 epoch  20: train loss 1.306 acc 0.537
+  fold 5 epoch  30: train loss 1.122 acc 0.533
+  fold 5 epoch  40: train loss 1.022 acc 0.521
+  fold 5: test accuracy 0.8825 (trained on folds [1, 2, 3, 4], last epoch 40)
+training took 98.9 min
+== model_ast_final_seed42 (5 folds)
+  Accuracy         0.8920 ± 0.0208
+  Macro precision  0.9057 ± 0.0210
+  Macro recall     0.8920 ± 0.0208
+  Macro F1         0.8896 ± 0.0206
+  Cohen's κ        0.8898 ± 0.0212
+  Top-3 accuracy   0.9795 ± 0.0048
+  Top-5 accuracy   0.9875 ± 0.0047
+  Log loss         0.4965 ± 0.0528
+  most confused: helicopter→airplane (7); helicopter→crickets (6); cat→crying_baby (6); water_drops→clock_tick (5); coughing→sneezing (4)
