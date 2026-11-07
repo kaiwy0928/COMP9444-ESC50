@@ -14,8 +14,12 @@ models/pretrained/*.pt
 
 # ---- training logs kept at the repo root ----
 *.log
+*.log.bak
 # but keep training logs inside model_results (experiment evidence)
 !model_results/**/*.log
+
+# ---- superseded single-fold defense doc (kept locally, final version is _final) ----
+COMP9444_答辩文档.docx
 
 # ---- local agent workspace ----
 .workbuddy/
