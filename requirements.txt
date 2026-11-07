@@ -1,0 +1,20 @@
+# Exact versions used for our results (Python 3.11).
+# Install PyTorch first, from the PyTorch index that matches your machine (the setup scripts do this):
+#   NVIDIA GPU: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   CPU only:   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+#   macOS:      pip install torch==2.11.0
+# then: pip install -r requirements.txt
+torch==2.11.0
+numpy==2.4.6
+pandas==3.1.0
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+librosa==0.11.0
+soundfile==0.14.0
+soxr==1.1.0
+matplotlib==3.11.2
+tqdm==4.70.1
+
+# ImageNet models (MobileNetV3, EfficientNet-B0, ResNet18), matching torch 2.11.0
+torchvision==0.26.0

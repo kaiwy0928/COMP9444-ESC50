@@ -1,0 +1,114 @@
+{
+  "run": "model_panns_cnn14_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.7575,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.7916531986531987,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.7575,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.7583158063127103,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.7525510204081632,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.9175,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.9575,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 0.9785963296890259,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.7575,
+    "macro_precision": 0.7916531986531987,
+    "macro_recall": 0.7575,
+    "macro_f1": 0.7583158063127103,
+    "cohen_kappa": 0.7525510204081632,
+    "top3_accuracy": 0.9175,
+    "top5_accuracy": 0.9575,
+    "log_loss": 0.9785963296890259
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.7575,
+      "macro_precision": 0.7916531986531987,
+      "macro_recall": 0.7575,
+      "macro_f1": 0.7583158063127103,
+      "cohen_kappa": 0.7525510204081632,
+      "top3_accuracy": 0.9175,
+      "top5_accuracy": 0.9575,
+      "log_loss": 0.9785963296890259
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "laughing",
+      "predicted": "hen",
+      "count": 4
+    },
+    {
+      "true": "train",
+      "predicted": "wind",
+      "count": 3
+    },
+    {
+      "true": "helicopter",
+      "predicted": "engine",
+      "count": 3
+    },
+    {
+      "true": "car_horn",
+      "predicted": "glass_breaking",
+      "count": 3
+    },
+    {
+      "true": "breathing",
+      "predicted": "glass_breaking",
+      "count": 3
+    },
+    {
+      "true": "vacuum_cleaner",
+      "predicted": "chainsaw",
+      "count": 2
+    },
+    {
+      "true": "helicopter",
+      "predicted": "crickets",
+      "count": 2
+    },
+    {
+      "true": "airplane",
+      "predicted": "vacuum_cleaner",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "vacuum_cleaner",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "door_wood_creaks",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "run": "model_efficientnet_b0_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.88,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.8931897546897547,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.88,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.8758931345572212,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.8775510204081632,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.9725,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.995,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 0.47800594568252563,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.88,
+    "macro_precision": 0.8931897546897547,
+    "macro_recall": 0.88,
+    "macro_f1": 0.8758931345572212,
+    "cohen_kappa": 0.8775510204081632,
+    "top3_accuracy": 0.9725,
+    "top5_accuracy": 0.995,
+    "log_loss": 0.47800594568252563
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.88,
+      "macro_precision": 0.8931897546897547,
+      "macro_recall": 0.88,
+      "macro_f1": 0.8758931345572212,
+      "cohen_kappa": 0.8775510204081632,
+      "top3_accuracy": 0.9725,
+      "top5_accuracy": 0.995,
+      "log_loss": 0.47800594568252563
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "helicopter",
+      "predicted": "engine",
+      "count": 4
+    },
+    {
+      "true": "fireworks",
+      "predicted": "thunderstorm",
+      "count": 3
+    },
+    {
+      "true": "siren",
+      "predicted": "laughing",
+      "count": 2
+    },
+    {
+      "true": "car_horn",
+      "predicted": "siren",
+      "count": 2
+    },
+    {
+      "true": "wind",
+      "predicted": "sea_waves",
+      "count": 2
+    },
+    {
+      "true": "cat",
+      "predicted": "siren",
+      "count": 2
+    },
+    {
+      "true": "car_horn",
+      "predicted": "glass_breaking",
+      "count": 1
+    },
+    {
+      "true": "engine",
+      "predicted": "washing_machine",
+      "count": 1
+    },
+    {
+      "true": "chainsaw",
+      "predicted": "engine",
+      "count": 1
+    },
+    {
+      "true": "helicopter",
+      "predicted": "crickets",
+      "count": 1
+    }
+  ]
+}

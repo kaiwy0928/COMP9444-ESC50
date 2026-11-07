@@ -1,0 +1,20 @@
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to C:\Users\admin/.cache\torch\hub\checkpoints\efficientnet_b0_rwightman-7f5810bc.pth
+model_efficientnet_b0_final_seed42: models/model_efficientnet_b0.py, 4.07M parameters, device cuda, folds [1]
+  fold 1 epoch  10: train loss 1.115 acc 0.442
+  fold 1 epoch  20: train loss 0.682 acc 0.436
+  fold 1 epoch  30: train loss 0.878 acc 0.431
+  fold 1 epoch  40: train loss 0.428 acc 0.504
+  fold 1 epoch  50: train loss 0.637 acc 0.405
+  fold 1 epoch  60: train loss 0.594 acc 0.397
+  fold 1: test accuracy 0.8800 (trained on folds [2, 3, 4, 5], last epoch 60)
+training took 4.6 min
+== model_efficientnet_b0_final_seed42 (1 folds)
+  Accuracy         0.8800 ± 0.0000
+  Macro precision  0.8932 ± 0.0000
+  Macro recall     0.8800 ± 0.0000
+  Macro F1         0.8759 ± 0.0000
+  Cohen's κ        0.8776 ± 0.0000
+  Top-3 accuracy   0.9725 ± 0.0000
+  Top-5 accuracy   0.9950 ± 0.0000
+  Log loss         0.4780 ± 0.0000
+  most confused: helicopter→engine (4); fireworks→thunderstorm (3); siren→laughing (2); car_horn→siren (2); wind→sea_waves (2)

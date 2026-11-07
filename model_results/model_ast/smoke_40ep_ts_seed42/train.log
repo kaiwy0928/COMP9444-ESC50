@@ -1,0 +1,20 @@
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, folds [1]
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 1 epoch  10: train loss 1.341 acc 0.480
+  fold 1 epoch  20: train loss 1.173 acc 0.453
+  fold 1 epoch  30: train loss 1.084 acc 0.560
+  fold 1 epoch  40: train loss 1.023 acc 0.540
+  fold 1: test accuracy 0.9025 (trained on folds [2, 3, 4, 5], last epoch 40)
+training took 23.6 min
+== model_ast_final_seed42 (1 folds)
+  Accuracy         0.9025 ± 0.0000
+  Macro precision  0.9145 ± 0.0000
+  Macro recall     0.9025 ± 0.0000
+  Macro F1         0.9003 ± 0.0000
+  Cohen's κ        0.9005 ± 0.0000
+  Top-3 accuracy   0.9875 ± 0.0000
+  Top-5 accuracy   0.9950 ± 0.0000
+  Log loss         0.4528 ± 0.0000
+  most confused: wind→sea_waves (4); helicopter→crickets (3); washing_machine→vacuum_cleaner (2); clock_tick→water_drops (2); keyboard_typing→mouse_click (2)

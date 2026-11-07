@@ -1,0 +1,114 @@
+{
+  "run": "model_panns_cnn14_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.7975,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.8175429505135388,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.7975,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.7919576397802401,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.7933673469387755,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.9375,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.975,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 1.0568641424179077,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.7975,
+    "macro_precision": 0.8175429505135388,
+    "macro_recall": 0.7975,
+    "macro_f1": 0.7919576397802401,
+    "cohen_kappa": 0.7933673469387755,
+    "top3_accuracy": 0.9375,
+    "top5_accuracy": 0.975,
+    "log_loss": 1.0568641424179077
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.7975,
+      "macro_precision": 0.8175429505135388,
+      "macro_recall": 0.7975,
+      "macro_f1": 0.7919576397802401,
+      "cohen_kappa": 0.7933673469387755,
+      "top3_accuracy": 0.9375,
+      "top5_accuracy": 0.975,
+      "log_loss": 1.0568641424179077
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "door_wood_creaks",
+      "predicted": "crying_baby",
+      "count": 3
+    },
+    {
+      "true": "helicopter",
+      "predicted": "engine",
+      "count": 3
+    },
+    {
+      "true": "rooster",
+      "predicted": "crying_baby",
+      "count": 3
+    },
+    {
+      "true": "cat",
+      "predicted": "crying_baby",
+      "count": 3
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "vacuum_cleaner",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "door_wood_creaks",
+      "count": 2
+    },
+    {
+      "true": "siren",
+      "predicted": "crying_baby",
+      "count": 2
+    },
+    {
+      "true": "siren",
+      "predicted": "laughing",
+      "count": 2
+    },
+    {
+      "true": "hen",
+      "predicted": "laughing",
+      "count": 2
+    },
+    {
+      "true": "wind",
+      "predicted": "sea_waves",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "run": "model_ast_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.8925,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.9073578643578644,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.8925,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.8909448621553885,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.8903061224489796,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.985,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.9975,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 0.49223509430885315,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.8925,
+    "macro_precision": 0.9073578643578644,
+    "macro_recall": 0.8925,
+    "macro_f1": 0.8909448621553885,
+    "cohen_kappa": 0.8903061224489796,
+    "top3_accuracy": 0.985,
+    "top5_accuracy": 0.9975,
+    "log_loss": 0.49223509430885315
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.8925,
+      "macro_precision": 0.9073578643578644,
+      "macro_recall": 0.8925,
+      "macro_f1": 0.8909448621553885,
+      "cohen_kappa": 0.8903061224489796,
+      "top3_accuracy": 0.985,
+      "top5_accuracy": 0.9975,
+      "log_loss": 0.49223509430885315
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "fireworks",
+      "predicted": "thunderstorm",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "vacuum_cleaner",
+      "count": 2
+    },
+    {
+      "true": "helicopter",
+      "predicted": "crickets",
+      "count": 2
+    },
+    {
+      "true": "helicopter",
+      "predicted": "engine",
+      "count": 2
+    },
+    {
+      "true": "wind",
+      "predicted": "sea_waves",
+      "count": 2
+    },
+    {
+      "true": "cat",
+      "predicted": "crying_baby",
+      "count": 2
+    },
+    {
+      "true": "airplane",
+      "predicted": "vacuum_cleaner",
+      "count": 1
+    },
+    {
+      "true": "engine",
+      "predicted": "brushing_teeth",
+      "count": 1
+    },
+    {
+      "true": "chainsaw",
+      "predicted": "cow",
+      "count": 1
+    },
+    {
+      "true": "chainsaw",
+      "predicted": "engine",
+      "count": 1
+    }
+  ]
+}

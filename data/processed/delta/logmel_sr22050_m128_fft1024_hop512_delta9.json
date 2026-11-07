@@ -1,0 +1,10 @@
+{
+  "source": "logmel_sr22050_m128_fft1024_hop512",
+  "delta": {
+    "width": 9,
+    "order": 1,
+    "axis": "time",
+    "mode": "interp",
+    "function": "librosa.feature.delta"
+  }
+}

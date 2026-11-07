@@ -1,0 +1,25 @@
+# ---- environment ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- large artefacts (ship separately / regenerate) ----
+# ESC-50 raw audio + cached feature arrays (342 MB; regenerate with 2_preprocess.py)
+data/raw/
+data/processed/**/*.npz
+# AudioSet CNN14 checkpoint (313 MB)
+models/pretrained/*.pth
+models/pretrained/*.pt
+
+# ---- training logs kept at the repo root ----
+*.log
+# but keep training logs inside model_results (experiment evidence)
+!model_results/**/*.log
+
+# ---- local agent workspace ----
+.workbuddy/
+defense_doc.html
+
+# ---- HF / torch caches ----
+.cache/

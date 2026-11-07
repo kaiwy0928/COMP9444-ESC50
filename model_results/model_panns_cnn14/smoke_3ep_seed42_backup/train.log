@@ -1,0 +1,6 @@
+[panns_cnn14] loaded 79 tensors / 79.7M parameters from Cnn14_mAP=0.431.pth; skipped 5: ['spectrogram_extractor.stft.conv_real.weight', 'spectrogram_extractor.stft.conv_imag.weight', 'logmel_extractor.melW', 'fc_audioset.weight']
+model_panns_cnn14_final_seed42: models/model_panns_cnn14.py, 79.78M parameters, device cuda, folds [1]
+[panns_cnn14] loaded 79 tensors / 79.7M parameters from Cnn14_mAP=0.431.pth; skipped 5: ['spectrogram_extractor.stft.conv_real.weight', 'spectrogram_extractor.stft.conv_imag.weight', 'logmel_extractor.melW', 'fc_audioset.weight']
+  fold 1 epoch   3: train loss 3.203 acc 0.084
+  fold 1: test accuracy 0.2700 (trained on folds [2, 3, 4, 5], last epoch 3)
+training took 0.9 min

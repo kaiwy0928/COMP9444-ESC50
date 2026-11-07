@@ -1,0 +1,114 @@
+{
+  "run": "model_panns_cnn14_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.27,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.2684517418574214,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.27,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.2140920628642005,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.2551020408163265,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.51,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.635,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 2.892890691757202,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.27,
+    "macro_precision": 0.2684517418574214,
+    "macro_recall": 0.27,
+    "macro_f1": 0.2140920628642005,
+    "cohen_kappa": 0.2551020408163265,
+    "top3_accuracy": 0.51,
+    "top5_accuracy": 0.635,
+    "log_loss": 2.892890691757202
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.27,
+      "macro_precision": 0.2684517418574214,
+      "macro_recall": 0.27,
+      "macro_f1": 0.2140920628642005,
+      "cohen_kappa": 0.2551020408163265,
+      "top3_accuracy": 0.51,
+      "top5_accuracy": 0.635,
+      "log_loss": 2.892890691757202
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "toilet_flush",
+      "predicted": "pouring_water",
+      "count": 6
+    },
+    {
+      "true": "door_wood_creaks",
+      "predicted": "crying_baby",
+      "count": 5
+    },
+    {
+      "true": "crow",
+      "predicted": "crying_baby",
+      "count": 5
+    },
+    {
+      "true": "clock_tick",
+      "predicted": "hand_saw",
+      "count": 4
+    },
+    {
+      "true": "glass_breaking",
+      "predicted": "coughing",
+      "count": 4
+    },
+    {
+      "true": "rooster",
+      "predicted": "crying_baby",
+      "count": 4
+    },
+    {
+      "true": "vacuum_cleaner",
+      "predicted": "chainsaw",
+      "count": 4
+    },
+    {
+      "true": "fireworks",
+      "predicted": "can_opening",
+      "count": 4
+    },
+    {
+      "true": "clapping",
+      "predicted": "pouring_water",
+      "count": 4
+    },
+    {
+      "true": "coughing",
+      "predicted": "dog",
+      "count": 4
+    }
+  ]
+}

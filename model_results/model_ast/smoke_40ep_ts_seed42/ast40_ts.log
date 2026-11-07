@@ -1,0 +1,25 @@
+W1107 14:38:17.985000 5776 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  56%|█████▌    | 114/203 [00:00<00:00, 1073.81it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 1124.45it/s]
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+model_ast_final_seed42: models/model_ast.py, 86.23M parameters, device cuda, folds [1]
+Loading weights:   0%|          | 0/203 [00:00<?, ?it/s]Loading weights:  49%|████▉     | 99/203 [00:00<00:00, 947.52it/s]Loading weights:  96%|█████████▌| 194/203 [00:00<00:00, 936.05it/s]Loading weights: 100%|██████████| 203/203 [00:00<00:00, 971.44it/s]
+D:\COMP9444_cloud_bundle\.venv\Lib\site-packages\torch\autograd\graph.py:869: UserWarning: Memory Efficient attention defaults to a non-deterministic algorithm. To explicitly enable determinism call torch.use_deterministic_algorithms(True, warn_only=False). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\transformers\cuda\attention_backward.cu:902.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[ast] loaded 86.6M parameters from MIT/ast-finetuned-audioset-10-10-0.4593
+[ast] position embeddings 12x101 -> 12x21 for 216 frames
+  fold 1 epoch  10: train loss 1.341 acc 0.480
+  fold 1 epoch  20: train loss 1.173 acc 0.453
+  fold 1 epoch  30: train loss 1.084 acc 0.560
+  fold 1 epoch  40: train loss 1.023 acc 0.540
+  fold 1: test accuracy 0.9025 (trained on folds [2, 3, 4, 5], last epoch 40)
+training took 23.6 min
+== model_ast_final_seed42 (1 folds)
+  Accuracy         0.9025 ± 0.0000
+  Macro precision  0.9145 ± 0.0000
+  Macro recall     0.9025 ± 0.0000
+  Macro F1         0.9003 ± 0.0000
+  Cohen's κ        0.9005 ± 0.0000
+  Top-3 accuracy   0.9875 ± 0.0000
+  Top-5 accuracy   0.9950 ± 0.0000
+  Log loss         0.4528 ± 0.0000
+  most confused: wind→sea_waves (4); helicopter→crickets (3); washing_machine→vacuum_cleaner (2); clock_tick→water_drops (2); keyboard_typing→mouse_click (2)

@@ -1,0 +1,114 @@
+{
+  "run": "model_mobilenetv3_small_final_seed42",
+  "folds": [
+    1
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.83,
+      "std": 0.0
+    },
+    "macro_precision": {
+      "mean": 0.8473957153957152,
+      "std": 0.0
+    },
+    "macro_recall": {
+      "mean": 0.83,
+      "std": 0.0
+    },
+    "macro_f1": {
+      "mean": 0.8264871310320226,
+      "std": 0.0
+    },
+    "cohen_kappa": {
+      "mean": 0.826530612244898,
+      "std": 0.0
+    },
+    "top3_accuracy": {
+      "mean": 0.945,
+      "std": 0.0
+    },
+    "top5_accuracy": {
+      "mean": 0.975,
+      "std": 0.0
+    },
+    "log_loss": {
+      "mean": 0.6405097246170044,
+      "std": 0.0
+    }
+  },
+  "pooled": {
+    "accuracy": 0.83,
+    "macro_precision": 0.8473957153957152,
+    "macro_recall": 0.83,
+    "macro_f1": 0.8264871310320226,
+    "cohen_kappa": 0.826530612244898,
+    "top3_accuracy": 0.945,
+    "top5_accuracy": 0.975,
+    "log_loss": 0.6405097246170044
+  },
+  "per_fold": {
+    "1": {
+      "accuracy": 0.83,
+      "macro_precision": 0.8473957153957152,
+      "macro_recall": 0.83,
+      "macro_f1": 0.8264871310320226,
+      "cohen_kappa": 0.826530612244898,
+      "top3_accuracy": 0.945,
+      "top5_accuracy": 0.975,
+      "log_loss": 0.6405097246170044
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "helicopter",
+      "predicted": "crickets",
+      "count": 4
+    },
+    {
+      "true": "engine",
+      "predicted": "helicopter",
+      "count": 3
+    },
+    {
+      "true": "helicopter",
+      "predicted": "engine",
+      "count": 2
+    },
+    {
+      "true": "laughing",
+      "predicted": "hen",
+      "count": 2
+    },
+    {
+      "true": "door_wood_creaks",
+      "predicted": "crying_baby",
+      "count": 2
+    },
+    {
+      "true": "keyboard_typing",
+      "predicted": "mouse_click",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "engine",
+      "count": 2
+    },
+    {
+      "true": "washing_machine",
+      "predicted": "vacuum_cleaner",
+      "count": 2
+    },
+    {
+      "true": "cat",
+      "predicted": "siren",
+      "count": 2
+    },
+    {
+      "true": "wind",
+      "predicted": "sea_waves",
+      "count": 2
+    }
+  ]
+}
